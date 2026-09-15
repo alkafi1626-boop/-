@@ -1,0 +1,21 @@
+name: amar_porikolpona
+description: "আমার পরিকল্পনা - লগইন ছাড়াই বাংলা পরিকল্পনা অ্যাপ"
+publish_to: "none"
+version: 1.0.0+3
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
